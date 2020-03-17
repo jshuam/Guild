@@ -35,6 +35,9 @@ This README will serve as a list of guidelines to follow when contributing to th
   public CurrentHealth { get => _currentHealth; }
   ```
 * Prefix **private fields** with an underscore, e.g. ```_privateField```
+* Suffix MonoBehaviour scripts that are for ScriptableObjects with Behaviour, e.g.
+  * ScriptableObject Health.cs
+  * MonoBehaviour HealthBehaviour.cs
 
 ## Architectural Guidelines <a name="arch-guidelines"></a>
 * Ensure that all code is written in a component focused way
