@@ -14,13 +14,6 @@ namespace Guild.Core
         {
             _currentHealth = _health.MaxHealth;
         }
-
-        void Update()
-        {
-            Debug.Log(_health.MaxHealth);
-            CurrentHealth -= 1 * Time.deltaTime;
-            Debug.Log(CurrentHealth);
-        }
     }
 
 }

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1981a77baeda2054b937f60f5dc0c1fd, type: 3}
+  m_Name: MiningActivity
+  m_EditorClassIdentifier: 
+  _energyCost: 4
+  _reward: {fileID: 4850917354079596125, guid: cc5940c243245554e845d4e2e8cebc1d, type: 3}
+  _radius: 1
+  _activityType: {fileID: 11400000, guid: 89ce07265a8881f4c85f27028c057d16, type: 2}
